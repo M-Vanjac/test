@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(img/bg.jpg);
+}
+.container {
+    /* height: 80vh; */
+    padding: 30px;
+    background-color: rgba(255,255,255, .3);
+    border-radius: 15px;
+    border: 1px solid darkred;
+    margin-bottom: 50px;
+
+}
+section article .img-box {
+    width: 150px;
+    height: 150px;
+
+}
+section article img {
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+
+}
+input {
+    width: 50px;
+    margin-bottom: 20px;
+}
+.korpa {
+    background-image: url(img/cart.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
